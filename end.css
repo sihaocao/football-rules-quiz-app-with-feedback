@@ -1,0 +1,18 @@
+/* end screen */
+.end-image {
+    width: 25%;
+    height: 25%;
+    margin-bottom: 3rem;
+}
+
+#finalScore, #totalScore {
+    font-size: 5.4rem;
+    color: navy;
+    margin-bottom: 5rem;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#totalScore {
+    text-decoration: none;
+}
