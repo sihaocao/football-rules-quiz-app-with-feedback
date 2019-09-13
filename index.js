@@ -78,7 +78,7 @@ function getNewQuestion() {
     // if no more available questions, then go to end page
     if (availableQuestions.length === 0) {                  // if there are no more questions in the availableQuestions array
         localStorage.setItem("mostRecentScore", score);     // store the user score in memory
-        return window.location.assign("/end.html");         // go to the end page
+        return window.location.assign("end.html");         // go to the end page
     }
 
     // with one question remaining, the next question button's text changes to "DONE"
